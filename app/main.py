@@ -1,4 +1,3 @@
-import imp
 from fastapi import FastAPI, Response, status, HTTPException, Depends
 from pydantic import BaseModel
 from random import randrange
